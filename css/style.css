@@ -7,6 +7,12 @@ body{
     float: right;
 }
 
+.exhibit-block{
+    display:block !important;
+    padding-bottom: 50px;
+    min-height: 60px;
+}
+
 .custom-top-search{
     border-bottom: 1px solid #ffc900
 }
@@ -109,6 +115,7 @@ body{
     padding-bottom: 3px;
 }
 .custom-nav-bar{
+    display:none;
     background-color: #333333;
     color: #ffc900;
 }
