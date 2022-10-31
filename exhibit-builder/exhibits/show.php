@@ -67,9 +67,11 @@ $exhibitNavOption = get_theme_option('exhibits_nav');
                         * Turn this: /omeka_themes/exhibits/show/mem/item/5
                         * into this: /omeka_themes/items/show/9
                         * */
-                        var newComponents = downloadLink.split("/");
-                        //console.log("/" + newComponents[1] + "/items/show/" + newComponents[6]);
-                        var newURL = "/" + newComponents[1] + "/items/show/" + newComponents[6];
+			var newComponents = downloadLink.split("/");
+			console.log(newComponents);
+                        console.log("/" + newComponents[2] + "/items/show/" + newComponents[5]);
+			//var newURL = "/" + newComponents[2] + "/items/" + newComponents[5];
+		        var newURL = "https://omeka.library.appstate.edu/items/show/" + newComponents[5];
                         $(this).attr('href', newURL);
                     })
                 </script>
