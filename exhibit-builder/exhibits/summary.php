@@ -20,9 +20,7 @@ echo head(array(
             <div class="row">
                 <div class="col-12">
                     <div >
-                        <div class="item active">
-                            <img id="header-image" src="http://localhost/omeka_themes/files/custom/bmc_toolbar_dome.jpg" class="img-fluid">
-                        </div>
+
                     </div>
                 </div>
             </div>
@@ -32,6 +30,10 @@ echo head(array(
         <div class="container">
             <div class="row">
                 <div id="page-content" class="col-12 order-1 col-sm-8 col-md-9 order-sm-2 order-md-2 order-lg-2">
+					<br>
+					<div class="item active">
+                        <img id="header-image" src="https://omeka.library.appstate.edu/files/fullsize/d6791ad44611cebc5808db8ad3d8916a.jpg" class="img-fluid">
+                    </div>
                     <br>
                     <?php if ($exhibitDescription = metadata('exhibit', 'description', array('no_escape' => true))): ?>
                         <div class="exhibit-description">
